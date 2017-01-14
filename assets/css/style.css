@@ -1,12 +1,20 @@
 
+h1 {
+	background-color: #4aaaa5;
+
+}
 
 h1, h2, h3, h4, h5 {
 	font-family: Georgia, Times, 'Times New Roman', serif;
+	padding: 20px;
 }
 div, p {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+span {
+	padding: 10px;
+}
 
 h4 {
 	word-spacing: 12px;
