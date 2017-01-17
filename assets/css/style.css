@@ -128,8 +128,19 @@ img {
 .link2 > a {
 	color: white;
 }
+input[name=username] {
+	background-image: url('../images/johnsmith.png');
+	background-position: 5px 10px;
+	background-repeat: no-repeat;
+}
+input[name=email] {
+	background-image: url('../images/example.png');
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+}
 input {
-	padding: 5px;
+	padding: 10px;
+	height: 50px;
 	margin-bottom: 20px;
 	font-size: 24px;
 	line-height: 34px;
@@ -182,7 +193,7 @@ textarea {
 	padding: 15px 15px 15px 30px;
 	width: 235px;
 	height: 170px;
-	top: -654px;
+	top: -718px;
 	left: 670px;
 }
 h3 {
