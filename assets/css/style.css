@@ -11,12 +11,23 @@ a {
 	text-decoration: none;
 	color: #666666;
 }
-h1, h2, h3, h4, h5 {
+h1 {
+	font-family: Georgia, Times, serif;
+	color:white;
+}
+
+h2, h3, h4, h5 {
 	font-family: Georgia, Times, serif;
 	color: #4aaaa5;
 }
 .container {
 	margin: 0px auto;
+	clear: both;
+	background-image: url("../images/background.png");
+	height: auto;
+	padding-right: 20px;
+	border-top-style: solid;
+	border-top-color: #dddddd;
 }
 #name {
 	float: left;
@@ -44,12 +55,7 @@ h1, h2, h3, h4, h5 {
 	padding-left: 20px;
 }
 section {
-	clear: left;
-	background-image: url("../images/background.jpeg");
-	height: auto;
-	padding-right: 20px;
-	border-top-style: solid;
-	border-top-color: #dddddd;
+
 }
 h2 {
 	padding-bottom: 10px;
@@ -58,6 +64,9 @@ h2 {
 	border-bottom-width: 3px;
 	font-size: 24px;
 	color: #4aaaa5;
+}
+#portrait {
+	width: 175px;
 }
 .wrapper {
 	overflow: auto;
@@ -172,7 +181,7 @@ textarea {
 	padding: 15px 15px 15px 30px;
 	width: 235px;
 	height: 170px;
-	top: -338px;
+	top: -798px;
 	left: 670px;
 }
 
